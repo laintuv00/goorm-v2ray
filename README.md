@@ -18,6 +18,6 @@ chmod +x goormv2.sh
 
 The client can use `Websocket` port `80`, or `Websocket+TLS` port `443` for transmission.
 
-# Restart running in the background after reboot server
+# Continue running in the background if the server is rebooted
 
 nohup /v2ray/v2ray -config=/v2ray/config.json >out.txt 2>&1 &
