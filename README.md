@@ -8,6 +8,8 @@ chmod +x goormv2.sh
 
 # Server Info
 
+"Host": `<example>.run.goorm.io`
+
 "id": `aa12098f-56f3-49ed-bd5d-267f3ce2e873`
 
 "alterId": `64`
