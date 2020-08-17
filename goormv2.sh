@@ -12,4 +12,5 @@ chmod +x /v2ray/v2ctl
 rm -f /v2ray/config.json
 wget https://github.com/laintuv00/goorm-v2ray/raw/master/config.json
 # Start running in the background
+apt install -y nohup
 nohup /v2ray/v2ray -config=/v2ray/config.json >out.txt 2>&1 &
