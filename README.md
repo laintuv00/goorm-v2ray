@@ -27,7 +27,9 @@ nohup /v2ray/v2ray -config=/v2ray/config.json >out.txt 2>&1 &
 
 # Another Way
 
-`bash <(curl -s -L https://git.io/v2ray.sh)`
+The best V2Ray one-click installation script & management script
+
+`bash <(curl -s -L https://raw.githubusercontent.com/laintuv00/v2ray/master/install.sh)`
 
 `/usr/bin/v2ray/v2ray -config /etc/v2ray/config.json`
 
